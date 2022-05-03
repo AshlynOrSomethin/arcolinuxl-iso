@@ -15,13 +15,14 @@ broadcom-wl-dkms
 btrfs-progs
 clonezilla
 #cloud-init
-crda
+#crda
 cryptsetup
 #darkhttpd
 ddrescue
 dhclient
 #dhcpcd
 diffutils
+dmidecode
 dmraid
 dnsmasq
 dosfstools
@@ -41,6 +42,7 @@ gptfdisk
 #grml-zsh-config
 grub
 hdparm
+hyperv
 intel-ucode
 ipw2100-fw
 ipw2200-fw
@@ -56,6 +58,8 @@ libusb-compat
 linux
 linux-atm
 linux-firmware
+linux-firmware-qlogic
+linux-firmware-marvell
 #livecd-sounds
 lsscsi
 lvm2
@@ -78,6 +82,8 @@ nilfs-utils
 #nmap
 ntfs-3g
 nvme-cli
+open-iscsi
+open-vm-tools
 openconnect
 openssh
 openvpn
@@ -185,7 +191,6 @@ base
 base-devel
 
 ###virtual box or vmware
-open-vm-tools
 #virtualbox-guest-modules-arch
 virtualbox-guest-utils
 
@@ -325,7 +330,7 @@ ttf-ubuntu-font-family
 
 ###icons
 #arc-icon-theme
-gnome-icon-theme
+#gnome-icon-theme
 #papirus-icon-theme
 
 ###themes
@@ -346,7 +351,6 @@ cronie
 dconf-editor
 dex
 discord
-dmidecode
 duf-bin
 edid-decode-git
 evince
@@ -364,7 +368,7 @@ gnome-software-packagekit-plugin
 gparted
 gpick
 gtop
-hardinfo
+hardinfo-gtk3
 hddtemp
 htop
 hunspell
@@ -404,7 +408,7 @@ simple-scan
 #shotwell
 speedtest-cli-git
 telegram-desktop
-timeshift
+#timeshift
 tlp
 #tree
 ufw
@@ -473,7 +477,7 @@ appstream
 archiso
 conky-lua-archers
 downgrade
-font-manager-git
+font-manager
 #glxinfo
 gitahead-bin
 grub-customizer
@@ -482,7 +486,7 @@ inxi
 mintstick-git
 neofetch
 numix-gtk-theme-git
-pamac-all
+arcolinux-pamac-all
 #pamac-aur
 paru-bin
 peek
@@ -490,6 +494,7 @@ pulseaudio-equalizer-ladspa
 #pyakm
 python-pyparted
 python-pywal
+rate-mirrors-bin
 scour
 #screenkey-git
 sublime-text-4
@@ -598,6 +603,7 @@ arcolinux-zsh-git
 ###########################################################################
 
 #arcolinux-awesome-git
+#arcolinux-berry-git
 #arcolinux-bspwm-git
 #arcolinux-budgie-git
 #arcolinux-cinnamon-git
@@ -626,6 +632,7 @@ arcolinux-zsh-git
 #arcolinux-qtile-git
 #arcolinux-spectrwm-git
 #arcolinux-ukui-git
+#arcolinux-worm-git
 #arcolinux-wmderland-git
 arcolinux-xfce-git
 #arcolinux-xmonad-polybar-git
@@ -637,6 +644,7 @@ arcolinux-xfce-git
 
 arcolinux-config-all-desktops-git
 #arcolinux-config-awesome-git
+#arcolinux-config-berry-git
 #arcolinux-config-bspwm-git
 #arcolinux-config-budgie-git
 #arcolinux-config-cinnamon-git
@@ -662,6 +670,7 @@ arcolinux-config-all-desktops-git
 #arcolinux-config-qtile-git
 #arcolinux-config-spectrwm-git
 #arcolinux-config-ukui-git
+#arcolinux-config-worm-git
 #arcolinux-config-wmderland-git
 #arcolinux-config-xfce-git
 #arcolinux-config-xmonad-git
@@ -673,6 +682,7 @@ arcolinux-config-all-desktops-git
 
 arcolinux-dconf-all-desktops-git
 #arcolinux-awesome-dconf-git
+#arcolinux-berry-dconf-git
 #arcolinux-bspwm-dconf-git
 #arcolinux-budgie-dconf-git
 #arcolinux-cinnamon-dconf-git
@@ -697,6 +707,7 @@ arcolinux-dconf-all-desktops-git
 #arcolinux-qtile-dconf-git
 #arcolinux-spectrwm-dconf-git
 #arcolinux-ukui-dconf-git
+#arcolinux-worm-dconf-git
 #arcolinux-wmderland-dconf-git
 #arcolinux-xfce-dconf-git
 #arcolinux-xmonad-dconf-git
@@ -712,6 +723,7 @@ arco-calamares
 #arco-calamares-git
 #arco-calamares-next
 arcolinux-system-installation-git
+#arcolinux-system-installation-dev-git
 #arcolinuxd-config-live-session-git
 arcolinux-welcome-app-git
 #arcolinuxd-welcome-app-git
@@ -748,6 +760,7 @@ adobe-source-han-sans-cn-fonts
 ###########################################################################
 
 #arcob-calamares-config-awesome-git
+#arcob-calamares-config-berry-git
 #arcob-calamares-config-bspwm-git
 #arcob-calamares-config-budgie-git
 #arcob-calamares-config-cinnamon-git
@@ -771,6 +784,7 @@ adobe-source-han-sans-cn-fonts
 #arcob-calamares-config-qtile-git
 #arcob-calamares-config-spectrwm-git
 #arcob-calamares-config-ukui-git
+#arcob-calamares-config-worm-git
 #arcob-calamares-config-wmderland-git
 #arcob-calamares-config-xfce-git
 #arcob-calamares-config-xmonad-git
@@ -927,3 +941,7 @@ alacritty-themes
 base16-alacritty-git
 xfce4-terminal-base16-colors-git
 time
+pace
+sparklines-git
+fish
+arcolinux-fish-git
